@@ -6,4 +6,5 @@ urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
     url(r'^municipalities/(?P<province_code>.{0,50})/$',
         views.get_municipalities_json, name='get_municipalities_json'),
+    url(r'^stats/$', views.stats, name='stats'),
 )

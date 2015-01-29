@@ -14,6 +14,27 @@ def index(request):
     
     return render(request, 'test_project/index.html', {});
 
+def stats(request):
+    """
+    Return the avg number of provinces and municipalities per zone in HTTP JSON
+    """
+    avg_provinces_per_zone = Zone.objects \
+        .annotate(num_province=Count('province')) \
+        .aggregate(average=Avg('num_province'))
+    avg_provinces_per_zone = avg_provinces_per_zone['average']
+    
+    avg_municipality_per_zone = Zone.objects \
+        .annotate(num_municipality=Count('province__municipality')) \
+        .aggregate(average=Avg('num_municipality'))
+    avg_municipality_per_zone = avg_municipality_per_zone['average']
+    
+    result = {}
+    result['avg_prov_per_zone'] = float(avg_provinces_per_zone)
+    result['avg_mun_per_zone'] = float(avg_municipality_per_zone)
+    
+    json_result = json.dumps(result)
+    return HttpResponse(json_result, content_type='application/json')
+
 def get_municipalities_json(request, province_code):
     """Return the municipalities of a province_code as JSON in HttpResponse"""
     
