@@ -1,0 +1,156 @@
+COD_ISO_PROVINCIA,COD_ISO,COD_HASC,NOMBRE
+01,01,DO.NC.DN,Santo Domingo de Guzmán
+02,01,DO.AZ.AC,Azua
+02,02,DO.AZ.LC,Las Charcas
+02,03,DO.AZ.YV,Las Yayas de Viajama
+02,04,DO.AZ.PL,Padre las Casas
+02,05,DO.AZ.PR,Peralta
+02,06,DO.AZ.SY,Sabana Yegua
+02,07,DO.AZ.PV,Pueblo Viejo
+02,08,DO.AZ.VT,Tábara Arriba
+02,09,DO.AZ.GU,Guayabal
+02,10,DO.AZ.ES,Estebanía
+03,01,DO.BR.NE,Neiba
+03,02,DO.BR.GA,Galván
+03,03,DO.BR.TM,Tamayo
+03,04,DO.BR.VJ,Villa Jaragua
+03,05,DO.BR.LR,Los Ríos
+04,01,DO.BH.SC,Barahona
+04,02,DO.BH.CA,Cabral
+04,03,DO.BH.EN,Enriquillo
+04,04,DO.BH.PA,Paraíso
+04,05,DO.BH.VN,Vicente Noble
+04,06,DO.BH.EP,El Peñón
+04,07,DO.BH.LC,La Ciénaga
+04,08,DO.BH.FU,Fundación
+04,09,DO.BH.LS,Las Salinas
+04,10,DO.BH.PO,Polo
+04,11,DO.BH.JQ,Jaquimeyes
+05,01,DO.DA.DA,Dajabón
+05,02,DO.DA.LC,Loma de Cabrera
+05,03,DO.DA.PA,Partido
+05,04,DO.DA.RE,Restauración
+05,05,DO.DA.EP,El Pino
+06,01,DO.DU.SF,San Francisco de Macorís
+06,02,DO.DU.AR,Arenoso
+06,03,DO.DU.CA,Castillo
+06,04,DO.DU.PI,Pimentel
+06,05,DO.DU.VR,Villa Riva
+06,06,DO.DU.LG,Las Guáranas
+06,07,DO.DU.HO,Eugenio María de Hostos
+07,01,DO.EP.CO,Comendador
+07,02,DO.EP.BA,Bánica
+07,03,DO.EP.EL,El Llano
+07,04,DO.EP.HV,Hondo Valle
+07,05,DO.EP.PS,Pedro Santana
+07,06,DO.EP.JS,Juan Santiago
+08,01,DO.SE.SC,El Seibo
+08,02,DO.SE.MI,Miches
+09,01,DO.ES.MC,Moca
+09,02,DO.ES.CG,Cayetano Germosén
+09,03,DO.ES.GH,Gaspar Hernández
+09,04,DO.ES.JN,Jamao al Norte
+10,01,DO.IN.JI,Jimaní
+10,02,DO.IN.DU,Duvergé
+10,03,DO.IN.LD,La Descubierta
+10,04,DO.IN.PR,Postrer Río
+10,05,DO.IN.CR,Cristóbal
+10,06,DO.IN.ME,Mella
+11,01,DO.AL.HI,Higüey
+11,02,DO.AL.SR,San Rafael del Yuma
+12,01,DO.RO.LR,La Romana
+12,02,DO.RO.GU,Guaymate
+12,03,DO.RO.VH,Villa Hermosa
+13,01,DO.VE.CV,La Vega
+13,02,DO.VE.CO,Constanza
+13,03,DO.VE.JB,Jarabacoa
+13,04,DO.VE.JA,Jima Abajo
+14,01,DO.MT.NA,Nagua
+14,02,DO.MT.CA,Cabrera
+14,03,DO.MT.EF,El Factor
+14,04,DO.MT.RS,Río San Juan
+15,01,DO.MC.SF,Monte Cristi
+15,02,DO.MC.CA,Castañuelas
+15,03,DO.MC.GU,Guayubín
+15,04,DO.MC.LM,Las Matas de Santa Cruz
+15,05,DO.MC.PS,Pepillo Salcedo
+15,06,DO.MC.VV,Villa Vásquez
+16,01,DO.PN.PE,Pedernales
+16,02,DO.PN.OV,Oviedo
+17,01,DO.PV.BN,Baní
+17,02,DO.PV.NI,Nizao
+18,01,DO.PP.SF,Puerto Plata
+18,02,DO.PP.AL,Altamira
+18,03,DO.PP.GU,Guananico
+18,04,DO.PP.IM,Imbert
+18,05,DO.PP.LH,Los Hidalgos
+18,06,DO.PP.LU,Luperón
+18,07,DO.PP.SO,Sosúa
+18,08,DO.PP.LI,Villa Isabela
+18,09,DO.PP.VM,Villa Montellano
+19,01,DO.SC.SA,Salcedo
+19,02,DO.SC.TE,Tenares
+19,03,DO.SC.VT,Villa Tapia
+20,01,DO.SM.SB,Samaná
+20,02,DO.SM.SA,Sánchez
+20,03,DO.SM.LT,Las Terrenas
+21,01,DO.CR.SC,San Cristóbal
+21,02,DO.CR.SP,Sabana Grande de Palenque
+21,03,DO.CR.BH,Bajos de Haina
+21,04,DO.CR.CG,Cambita Garabitos
+21,05,DO.CR.VA,Villa Altagracia
+21,06,DO.CR.SG,Yaguate
+21,07,DO.CR.NI,San Gregorio de Nigua
+21,08,DO.CR.LC,Los Cacaos
+22,01,DO.JU.SJ,San Juan
+22,02,DO.JU.BO,Bohechío
+22,03,DO.JU.EC,El Cercado
+22,04,DO.JU.JH,Juan de Herrera
+22,05,DO.JU.LM,Las Matas de Farfán
+22,06,DO.JU.VA,Vallejuelo
+23,01,DO.PM.SP,San Pedro de Macorís
+23,02,DO.PM.LL,Los Llanos
+23,03,DO.PM.RS,Ramón Santana
+23,04,DO.PM.CO,Consuelo
+23,05,DO.PM.QQ,Quisqueya
+23,06,DO.PM.GY,Guayacanes
+24,01,DO.SZ.CO,Cotuí
+24,02,DO.SZ.CV,Cevicos
+24,03,DO.SZ.FA,Fantino
+24,04,DO.SZ.LM,La Mata
+25,01,DO.ST.SG,Santiago
+25,02,DO.ST.VB,Bisonó
+25,03,DO.ST.JA,Jánico
+25,04,DO.ST.LM,Licey al Medio
+25,05,DO.ST.SJ,San José de las Matas
+25,06,DO.ST.TA,Tamboril
+25,07,DO.ST.VG,Villa González
+25,08,DO.ST.PU,Puñal
+25,09,DO.ST.SI,Sabana Iglesia
+26,01,DO.SR.SI,San Ignacio de Sabaneta
+26,02,DO.SR.LA,Villa los Almácigos
+26,03,DO.SR.MO,Monción
+27,01,DO.VA.MA,Mao
+27,02,DO.VA.ES,Esperanza
+27,03,DO.VA.LS,Laguna Salada
+28,01,DO.MN.BO,Bonao
+28,02,DO.MN.MA,Maimón
+28,03,DO.MN.PB,Piedra Blanca
+29,01,DO.MP.MT,Monte Plata
+29,02,DO.MP.BA,Bayaguana
+29,03,DO.MP.SG,Sabana Grande de Boyá
+29,04,DO.MP.YA,Yamasá
+29,05,DO.MP.ES,Peralvillo
+30,01,DO.HM.HM,Hato Mayor
+30,02,DO.HM.SM,Sábana De La Mar
+30,03,DO.HM.EV,El Valle
+31,01,DO.JO.SJ,San José de Ocoa
+31,02,DO.JO.SL,Sabana Larga
+31,03,DO.JO.RA,Rancho Arriba
+32,01,DO.SD.ES,Santo Domingo Este
+32,02,DO.SD.OE,Santo Domingo Oeste
+32,03,DO.SD.DN,Santo Domingo Norte
+32,04,DO.SD.BC,Boca Chica
+32,05,DO.SD.GU,San Antonio de Guerra
+32,06,DO.SD.LA,Los Alcarrizos
+32,07,DO.SD.PB,Pedro Brand

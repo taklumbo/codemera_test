@@ -1,0 +1,33 @@
+COD_ISO,COD_HASC,NOMBRE,ZONA
+01,DO.NC,Distrito Nacional,D
+02,DO.AZ,Azua,S
+03,DO.BR,Bahoruco,S
+04,DO.BH,Barahona,S
+05,DO.DA,Dajabón,N
+06,DO.DU,Duarte,N
+07,DO.EP,Elías Piña,S
+08,DO.SE,El Seibo,E
+09,DO.ES,Espaillat,N
+10,DO.IN,Independencia,S
+11,DO.AL,La Altagracia,E
+12,DO.RO,La Romana,E
+13,DO.VE,La Vega,N
+14,DO.MT,María Trinidad Sánchez,N
+15,DO.MC,Monte Cristi,N
+16,DO.PN,Pedernales,S
+17,DO.PV,Peravia,S
+18,DO.PP,Puerto Plata,N
+19,DO.SC,Hermanas Mirabal,N
+20,DO.SM,Samaná,N
+21,DO.CR,San Cristóbal,S
+22,DO.JU,San Juan,S
+23,DO.PM,San Pedro de Macorís,E
+24,DO.SZ,Sánchez Ramírez,N
+25,DO.ST,Santiago,N
+26,DO.SR,Santiago Rodríguez,N
+27,DO.VA,Valverde,N
+28,DO.MN,Monseñor Nouel,N
+29,DO.MP,Monte Plata,E
+30,DO.HM,Hato Mayor,E
+31,DO.JO,San José de Ocoa,S
+32,DO.SD,Santo Domingo,D
