@@ -1,3 +1,61 @@
 <body>
-Under construction    
+    <script type="text/javascript"
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
+    </script>
+    
+    <script type="text/javascript">
+        //Function to retrieve, via ajax, the list of municipalities for a
+        //provincia
+       function getMunicipalitiesJson(){
+            chosen_province =
+                document.getElementById('province_textbox').value;
+            $.get("municipalities/" + chosen_province + "/",
+                function(data) 
+                {
+                    municipalities_ul =
+                        document.getElementById("municipalities_ul");
+                    error_msg_elem =
+                        document.getElementById("error_msg").firstChild;
+                    while (municipalities_ul.firstChild)
+                    {
+                        //Everytimes the user chooses another province,
+                        //clear the municipality list
+                        municipalities_ul.removeChild(
+                            municipalities_ul.firstChild);
+                    }
+                    
+                    if (data.length > 0) {
+                        for(i=0; i<data.length; i++)
+                        {
+                            var li_node = document.createElement("li");
+                            municipalities_ul.appendChild(li_node);
+                            var textnode = document.createTextNode(data[i]);
+                            li_node.appendChild(textnode);
+                        }
+                        error_msg_elem.innerHTML = "";
+                    }
+                    else
+                    {
+                        error_msg_elem.innerHTML = "La provincia '" +
+                            chosen_province + "' no fue encontrada.";
+                    }
+                }
+            ); 
+       }
+       
+    </script>
+    
+    <form action="" method="post" id="province_form"
+          onsubmit="getMunicipalitiesJson(); return false;">
+    {% csrf_token %}
+        <div id="error_msg"><font color="red"></font></div><br/>
+        Escriba una provincia: <input type="text" id="province_textbox">
+        <button id="submit_btn" onclick="getMunicipalitiesJson()"
+            type="button">Buscar</button>
+        <div id="municipalities_div">
+            <ul id="municipalities_ul">
+                
+            </ul>
+        </div>
+    </form>
 </body>
